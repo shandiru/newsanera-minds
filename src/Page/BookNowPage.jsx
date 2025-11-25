@@ -18,14 +18,14 @@ export default function BookNowPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  // ✅ Send to WhatsApp
+  // Send to WhatsApp
   const sendWhatsApp = () => {
     const text = `New%20Enquiry%0A%0AOption:%20${form.option}%0AName:%20${form.name}%0AEmail:%20${form.email}%0AMessage:%20${form.message}`;
     const url = `https://wa.me/${whatsappNumber}?text=${text}`;
     window.open(url, "_blank");
   };
 
-  // ✅ Send Email via EmailJS (NO redirect)
+  // Send Email
   const sendEmail = () => {
     if (!form.option || !form.name || !form.email || !form.message) {
       setStatus("Please fill all fields.");
@@ -36,20 +36,19 @@ export default function BookNowPage() {
 
     emailjs
       .send(
-        "service_404lxe7", // ✔ Replace
-        "template_kbmn3vk", // ✔ Replace
+        "service_404lxe7",
+        "template_kbmn3vk",
         {
           option: form.option,
           name: form.name,
           email: form.email,
           message: form.message,
         },
-        "tmUgtXKf_TwGrV1iE" // ✔ Replace
+        "tmUgtXKf_TwGrV1iE"
       )
       .then(() => {
         setStatus("Message sent successfully 🎉");
 
-        // Reset form
         setForm({
           option: "",
           name: "",
@@ -90,9 +89,23 @@ export default function BookNowPage() {
           </a>
         </div>
 
-        <h1 className="text-4xl font-semibold text-[#0d2f25] text-center mb-3">
+        {/* SANERA MINDS STYLE TITLE */}
+        <h1
+          className="
+            text-center 
+            text-4xl md:text-5xl 
+            font-serif 
+            tracking-[0.35em]
+            bg-gradient-to-b from-[#1a604c] to-[#0d2f25]
+            bg-clip-text text-transparent
+            mb-3
+            uppercase
+          "
+          style={{ fontWeight: 600 }}
+        >
           Get In Touch
         </h1>
+
         <p className="text-center text-[17px] text-[#062016]/80 mb-10 max-w-lg mx-auto">
           Book a complimentary initial assessment with one of our therapists.
         </p>
