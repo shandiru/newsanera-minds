@@ -234,19 +234,19 @@ function EducationWhyItMatters() {
           data-aos="fade-up"
         >
           <img 
-            src="/w1.png" 
+            src="/e1.jpeg" 
             alt="Why it matters 1" 
             className="w-full h-full object-cover rounded-lg shadow-md"
           />
 
           <img 
-            src="/w2.png" 
+            src="/e2.jpeg" 
             alt="Why it matters 2" 
             className="w-full h-full object-cover rounded-lg shadow-md"
           />
 
           <img 
-            src="/w3.png" 
+            src="/e3.jpeg" 
             alt="Why it matters 3" 
             className="w-full h-full object-cover rounded-lg shadow-md"
           />
