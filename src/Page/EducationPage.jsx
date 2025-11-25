@@ -220,6 +220,7 @@ function EducationWhyItMatters() {
     <section className="bg-white py-16 px-6 text-center">
       <div className="max-w-3xl mx-auto space-y-5">
 
+        {/* Heading */}
         <h2
           className="font-display text-2xl md:text-3xl text-[#11604b]"
           data-aos="fade-up"
@@ -227,21 +228,29 @@ function EducationWhyItMatters() {
           Why It Matters
         </h2>
 
-        <p
-          className="font-body text-[#062016]/90 text-lg md:text-xl"
+        {/* Image Grid */}
+        <div 
+          className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10"
           data-aos="fade-up"
         >
-          Mental health shapes every part of learning. When educators feel equipped and students feel
-          understood, classrooms become calmer, kinder, and more connected.
-        </p>
+          <img 
+            src="/w1.png" 
+            alt="Why it matters 1" 
+            className="w-full h-full object-cover rounded-lg shadow-md"
+          />
 
-        <p
-          className="font-body text-[#062016]/90 text-lg md:text-xl"
-          data-aos="fade-up"
-        >
-          Our goal is to make wellbeing a natural part of education  not an add-on, but a
-          foundation that helps everyone thrive.
-        </p>
+          <img 
+            src="/w2.png" 
+            alt="Why it matters 2" 
+            className="w-full h-full object-cover rounded-lg shadow-md"
+          />
+
+          <img 
+            src="/w3.png" 
+            alt="Why it matters 3" 
+            className="w-full h-full object-cover rounded-lg shadow-md"
+          />
+        </div>
 
       </div>
     </section>
