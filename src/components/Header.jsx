@@ -34,7 +34,7 @@ export default function Navbar() {
           {/* DESKTOP NAV — ONLY ON XL AND ABOVE */}
           <nav className="hidden xl:flex items-center space-x-12 relative z-10">
             {[
-              { label: "ORGANISATION", href: "/services/organisation" },
+              { label: "ORGANISATIONS", href: "/services/organisation" },
               { label: "EDUCATION", href: "/services/education" },
               { label: "EVENTS", href: "/services/events" },
               { label: "ABOUT US", href: "/about" },
@@ -86,7 +86,7 @@ export default function Navbar() {
           <div className="xl:hidden bg-[#EFF0EA] text-[#062016] text-center shadow-md">
 
             {[
-              { label: "ORGANISATION", href: "/services/organisation" },
+              { label: "ORGANISATIONS", href: "/services/organisation" },
               { label: "EDUCATION", href: "/services/education" },
               { label: "EVENTS", href: "/services/events" },
               { label: "ABOUT US", href: "/about" },
