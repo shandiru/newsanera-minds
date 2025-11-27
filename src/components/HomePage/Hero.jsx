@@ -5,55 +5,58 @@ export default function Hero() {
     <section
       className="relative h-screen flex flex-col justify-center items-center text-center bg-cover bg-center"
       style={{
-        backgroundImage: "url('/heros.png')", // ✅ wrap the image path in url()
+        backgroundImage: "url('/hero2.png')",
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      {/* Soft Overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-white px-6">
+      <div className="relative z-10 px-6 max-w-4xl mx-auto">
+        
         {/* Decorative Line */}
-        <div className="w-20 h-[2px] bg-white mx-auto mb-6"></div>
+        <div className="w-20 h-[2px] bg-[#11604B] mx-auto mb-6 opacity-80"></div>
 
         {/* Headline */}
-      <h1
-  className="
-    font-serif
-    text-white
-    text-4xl md:text-6xl 
-    font-bold
-    uppercase
-    tracking-[0.25em]
-    leading-tight
-    max-w-3xl mx-auto
-  "
->
-  EMPOWERING A NEW ERA OF MENTAL WELLNESS
-</h1>
+        <h1
+          className="
+            relative 
+            text-4xl md:text-6xl
+            uppercase 
+            tracking-[0.25em] 
+            font-display
+            font-bold
+            bg-clip-text 
+            text-transparent
+            bg-gradient-to-b 
+            from-[#02130E] via-[#062016] to-[#11604B]
+            px-3 py-1
+            leading-tight
+          "
+        >
+          EMPOWERING A NEW ERA OF MENTAL WELLNESS
+        </h1>
 
-        
-
+       
+        {/* Button */}
         <a
-  href="/contact"
-  className="
-    mt-8 inline-block
-    px-10 py-3
-    rounded-full
-    border border-white/70
-    text-white
-    text-sm font-medium
-    uppercase tracking-[0.25em]
-    backdrop-blur-sm
-    transition-all duration-300
-    hover:bg-white hover:text-black
-    hover:border-white
-    hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]
-  "
->
-  Book Now
-</a>
-
+          href="/contact"
+          className="
+            mt-10 inline-block
+            px-12 py-4
+            rounded-full
+            text-sm font-semibold
+            uppercase tracking-[0.25em]
+            text-white
+            bg-[#11604B]
+            shadow-lg shadow-black/40
+            transition-all duration-300
+            hover:bg-[#0d4a36]
+            hover:shadow-xl hover:shadow-black/50
+          "
+        >
+          Book Now
+        </a>
       </div>
     </section>
   );

@@ -183,7 +183,7 @@ function OrgWhyItMatters() {
           className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6"
           data-aos="fade-up"
         >
-          {["/w1.png", "/w2.png", "/w3.png"].map((src, i) => (
+          {["/w1.png", "/w2.jpeg", "/w3.png"].map((src, i) => (
             <motion.div
               key={i}
               whileHover={{
