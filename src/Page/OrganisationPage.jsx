@@ -270,7 +270,7 @@ export default function OrganisationPage() {
     <main>
       <OrgBanner />
       <OrgIntro />
-      <OrgWhy />
+      <OrgExpect />
       <OrgWhyItMatters />
       <OrgClosing />
     </main>

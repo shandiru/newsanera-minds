@@ -294,7 +294,7 @@ export default function EducationPage() {
     <main>
       <EducationBanner />
       <EducationIntro />
-      <EdugWhy />
+      <EducationExpect />
       <EducationEarlyYears />
       <EducationWhyItMatters />
       <EducationClosing />
