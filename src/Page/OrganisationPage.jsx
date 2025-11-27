@@ -3,7 +3,7 @@ import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { motion } from "framer-motion";
-
+import OrgWhy from "../components/Service/Organization/ServiceSection"
 /* =========================
    Init AOS Hook
    ========================= */
@@ -270,7 +270,7 @@ export default function OrganisationPage() {
     <main>
       <OrgBanner />
       <OrgIntro />
-      <OrgExpect />
+      <OrgWhy />
       <OrgWhyItMatters />
       <OrgClosing />
     </main>

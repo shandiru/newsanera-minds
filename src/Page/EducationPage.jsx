@@ -2,7 +2,7 @@
 import React, { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+import EdugWhy from "../components/Service/Education/ServiceSection"
 /* =========================
    INIT AOS
    ========================= */
@@ -294,7 +294,7 @@ export default function EducationPage() {
     <main>
       <EducationBanner />
       <EducationIntro />
-      <EducationExpect />
+      <EdugWhy />
       <EducationEarlyYears />
       <EducationWhyItMatters />
       <EducationClosing />
