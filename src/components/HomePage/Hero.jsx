@@ -1,57 +1,64 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+const images = ["/hero2.png", "/hero3.png"];
+const headingText = "EMPOWERING A NEW ERA OF MENTAL WELLNESS";
 
 export default function Hero() {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    // Show text on initial load
+    setShowText(true);
+
+    const interval = setInterval(() => {
+      // Change image first
+      setCurrentImage((prev) => (prev + 1) % images.length);
+
+      // Hide text instantly for reset
+      setShowText(false);
+
+      // Animate text in after small delay
+      setTimeout(() => setShowText(true), 100); // 100ms delay
+    }, 10000); // every 10s
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section
-      className="relative h-screen flex flex-col justify-center items-center text-center bg-cover bg-center"
-      style={{
-        backgroundImage: "url('/hero3.png')",
-      }}
+      className="relative h-screen flex flex-col justify-center items-center text-center bg-cover bg-center transition-all duration-1000"
+      style={{ backgroundImage: `url('${images[currentImage]}')` }}
     >
-      {/* Soft Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/60 transition-all duration-1000"></div>
 
-      {/* Content */}
       <div className="relative z-10 px-6 max-w-4xl mx-auto">
-        
-        {/* Decorative Line */}
-        <div className="w-20 h-[2px] bg-[#11604B] mx-auto mb-6 opacity-80"></div>
+        <div className="w-20 h-[2px] bg-[#11604B] mx-auto mb-6 opacity-90"></div>
 
-        {/* Headline */}
-       <h1
-  className="
-    relative 
-    text-4xl md:text-6xl
-    uppercase 
-    tracking-[0.25em] 
-    font-display
-    font-bold
-    text-white
-    px-3 py-1
-    leading-tight
-  "
->
-  EMPOWERING A NEW ERA OF MENTAL WELLNESS
-</h1>
+        {/* Animated heading */}
+        <h1 className="relative text-4xl md:text-6xl uppercase tracking-[0.1em] font-display font-bold text-white px-3 py-1 leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
+          {headingText.split(" ").map((word, wIndex) => (
+            <span key={wIndex} className="inline-block mr-2 whitespace-nowrap">
+              {word.split("").map((char, i) => (
+                <span
+                  key={i}
+                  className={`inline-block transform transition-all duration-700 ${
+                    showText
+                      ? "opacity-100 translate-y-0 scale-100"
+                      : "opacity-0 -translate-y-6 scale-90"
+                  }`}
+                  style={{ transitionDelay: `${i * 50 + wIndex * 300}ms` }}
+                >
+                  {char}
+                </span>
+              ))}
+            </span>
+          ))}
+        </h1>
 
-
-       
-        {/* Button */}
         <a
           href="/contact"
-          className="
-            mt-10 inline-block
-            px-12 py-4
-            rounded-full
-            text-sm font-semibold
-            uppercase tracking-[0.25em]
-            text-white
-            bg-[#11604B]
-            shadow-lg shadow-black/40
-            transition-all duration-300
-            hover:bg-[#0d4a36]
-            hover:shadow-xl hover:shadow-black/50
-          "
+          className="mt-10 inline-block px-12 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
         >
           Book Now
         </a>
