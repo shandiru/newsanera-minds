@@ -14,7 +14,7 @@ export default function Footer() {
           </h2>
           <p className="mt-4 text-[14px] md:text-[15px] leading-relaxed text-[#062016]/85">
             Empowering a new era of mental wellness with therapist-led learning
-            and meaningful wellbeing experiences for organisations, education
+            and meaningful wellbeing experiences for organisations, educational 
             settings, and events.
           </p>
         </div>
