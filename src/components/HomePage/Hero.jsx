@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-const images = ["/hero2.png", "/hero3.png"];
+// Main image first, glass image second
+const images = ["/hero2.png", "/hero3.png"]; 
 const headingText = "EMPOWERING A NEW ERA OF MENTAL WELLNESS";
 
 export default function Hero() {
@@ -8,19 +9,13 @@ export default function Hero() {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
-    // Show text on initial load
-    setShowText(true);
+    setShowText(true); // Animate text on first load
 
     const interval = setInterval(() => {
-      // Change image first
-      setCurrentImage((prev) => (prev + 1) % images.length);
-
-      // Hide text instantly for reset
-      setShowText(false);
-
-      // Animate text in after small delay
-      setTimeout(() => setShowText(true), 100); // 100ms delay
-    }, 10000); // every 10s
+      setCurrentImage((prev) => (prev + 1) % images.length); // Change image
+      setShowText(false); // Reset text animation
+      setTimeout(() => setShowText(true), 100); // Animate text in
+    }, 10000); // Every 10 seconds
 
     return () => clearInterval(interval);
   }, []);
