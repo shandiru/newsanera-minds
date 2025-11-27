@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="relative h-screen flex flex-col justify-center items-center text-center bg-cover bg-center"
       style={{
-        backgroundImage: "url('/hero2.png')",
+        backgroundImage: "url('/hero3.png')",
       }}
     >
       {/* Soft Overlay */}
@@ -18,24 +18,22 @@ export default function Hero() {
         <div className="w-20 h-[2px] bg-[#11604B] mx-auto mb-6 opacity-80"></div>
 
         {/* Headline */}
-        <h1
-          className="
-            relative 
-            text-4xl md:text-6xl
-            uppercase 
-            tracking-[0.25em] 
-            font-display
-            font-bold
-            bg-clip-text 
-            text-transparent
-            bg-gradient-to-b 
-            from-[#02130E] via-[#062016] to-[#11604B]
-            px-3 py-1
-            leading-tight
-          "
-        >
-          EMPOWERING A NEW ERA OF MENTAL WELLNESS
-        </h1>
+       <h1
+  className="
+    relative 
+    text-4xl md:text-6xl
+    uppercase 
+    tracking-[0.25em] 
+    font-display
+    font-bold
+    text-white
+    px-3 py-1
+    leading-tight
+  "
+>
+  EMPOWERING A NEW ERA OF MENTAL WELLNESS
+</h1>
+
 
        
         {/* Button */}
