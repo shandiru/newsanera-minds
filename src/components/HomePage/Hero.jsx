@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // Main image first, glass image second
-const images = ["/hero2.png", "/hero3.png"]; 
+const images = ["/hero3.png", "/hero4.png"]; 
 const headingText = "EMPOWERING A NEW ERA OF MENTAL WELLNESS";
 
 export default function Hero() {
