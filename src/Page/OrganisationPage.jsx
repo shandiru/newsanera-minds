@@ -123,7 +123,7 @@ function OrgExpect() {
     </>,
     <>
       <span className="font-semibold text-[#11604b]">E-learning: supporting life’s hardest moments.</span>{" "}
-      - with modules on grief, loss, miscarriage, infertility, illness, and more tailored to staff needs—delivered with compassion, privacy, and anytime access.
+       with modules on grief, loss, miscarriage, infertility, illness, and more tailored to staff needs delivered with compassion, privacy, and anytime access.
     </>,
   ]
 
