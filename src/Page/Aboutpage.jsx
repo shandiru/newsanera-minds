@@ -33,7 +33,7 @@ function AboutBanner() {
 
       <div className="absolute inset-0 flex items-center justify-center text-center px-6 pt-30">
         <h1
-          className="font-display text-white text-4xl md:text-5xl font-bold uppercase tracking-wide"
+          className="font-display text-white text-3xl md:text-5xl font-bold uppercase tracking-wide"
           data-aos="fade-up"
         >
           <span className="small-caps">About</span>{" "}
