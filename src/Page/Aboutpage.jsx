@@ -37,7 +37,7 @@ function AboutBanner() {
           data-aos="fade-up"
         >
           <span className="small-caps">About</span>{" "}
-          <span className="italic">Sanera Minds</span>
+          <span className="">Sanera Minds</span>
         </h1>
       </div>
     </div>

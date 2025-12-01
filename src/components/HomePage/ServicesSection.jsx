@@ -74,7 +74,7 @@ export default function ServicesSection() {
 
               {/* Default Title */}
               <h3 className="
-                absolute text-center text-white text-2xl font-semibold 
+                absolute text-center text-white text-3xl font-semibold 
                 tracking-wide drop-shadow-lg font-[Playfair_Display]
                 transition-opacity duration-500 group-hover:opacity-0
               ">
