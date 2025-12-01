@@ -36,7 +36,7 @@ function OrgBanner() {
 
       <div className="absolute inset-0 bg-[rgba(6,32,22,0.72)]" />
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 space-y-6">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 space-y-6 pt-30">
         <h1
           className="font-display text-white text-4xl md:text-5xl font-bold uppercase tracking-wide"
           data-aos="fade-up"
