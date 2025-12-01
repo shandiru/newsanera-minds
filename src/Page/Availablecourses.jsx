@@ -1,23 +1,20 @@
-// App.jsx
-// src/App.jsx
+import { useState } from "react";
+import HeroSection from "../components/Availablecourses/HeroSection";
+import ProgramsSection from "../components/Availablecourses/ProgramsSection";
+import CTASection from "../components/Availablecourses/CTASection";
 
+export default function Availablecourses() {
+  // Default category is "organisations"
+  const [selectedCategory, setSelectedCategory] = useState("organisations");
 
-
-
-import Hero from "../components/Availablecourses/HeroSection"
-import ProgramsSection from "../components/Availablecourses/ProgramsSection"
-import CTASection from "../components/Availablecourses/CTASection"
-function Availablecourses() {
   return (
     <>
-      <Hero />
-      <ProgramsSection />
+      <HeroSection
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+      />
+      <ProgramsSection selectedCategory={selectedCategory} />
       <CTASection />
-      
-
-
     </>
   );
 }
-
-export default Availablecourses;
