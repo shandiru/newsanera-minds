@@ -12,7 +12,7 @@ export default function HeroSection({ selectedCategory, setSelectedCategory }) {
         font-body
       "
     >
-      <div className="mx-auto max-w-6xl text-center">
+      <div className="mx-auto max-w-6xl text-center pt-10 md:pt-10 sm:pt-10 lg:pt-0 xl:pt-10">
         <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl font-body">
           Transform Your Team's
           <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#002E1B] to-[#116F59]">
