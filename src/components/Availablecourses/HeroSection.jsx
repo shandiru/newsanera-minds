@@ -13,12 +13,13 @@ export default function HeroSection({ selectedCategory, setSelectedCategory }) {
       "
     >
       <div className="mx-auto max-w-6xl text-center pt-10 md:pt-10 sm:pt-10 lg:pt-0 xl:pt-10">
-        <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl font-body text-[#023020]">
-          Transform Your Team's
-          <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#002E1B] to-[#116F59]">
-            Mental Wellbeing
-          </span>
-        </h1>
+        <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl font-body text-[#023020] leading-tight">
+  Transform Your Team's
+  <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#002E1B] to-[#116F59] inline-block">
+    Mental Wellbeing
+  </span>
+</h1>
+
 
         <p className="mx-auto mb-12 max-w-2xl text-lg text-gray-600 md:text-xl font-body">
           Expert-led training programs designed to build resilience, emotional
