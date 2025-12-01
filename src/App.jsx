@@ -8,6 +8,7 @@ import EducationPage from "./Page/EducationPage"
 import OrganisationPage from "./Page/OrganisationPage"
 import BookNowPage from "./Page/BookNowPage"
 import Footer from "./Page/Footer"
+import Availablecourses from "./Page/Availablecourses"
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/services/events" element={<Eventspage />} />
         <Route path="/services/education" element={<EducationPage />} />
         <Route path="/services/organisation" element={<OrganisationPage />} />
+        <Route path="/availablecourses" element={<Availablecourses />} />
         <Route path="/contact" element={<BookNowPage />} />
       </Routes>
       <Footer />

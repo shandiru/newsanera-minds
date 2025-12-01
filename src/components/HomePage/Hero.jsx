@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // Main image first, glass image second
-const images = ["/hero3.png", "/hero4.png"]; 
+const images = ["/hero3.png", "/hero4.png"];
 const headingText = "EMPOWERING A NEW ERA OF MENTAL WELLNESS";
 
 export default function Hero() {
@@ -51,12 +51,22 @@ export default function Hero() {
           ))}
         </h1>
 
-        <a
-          href="/contact"
-          className="mt-10 inline-block px-12 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
-        >
-          Book Now
-        </a>
+        {/* TWO NEW BUTTONS */}
+        <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
+          <a
+            href="/availablecourses"
+            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
+          >
+            Available Courses
+          </a>
+
+          <a
+            href="/contact"
+            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white border border-white bg-transparent backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-black"
+          >
+            Bespoke Courses
+          </a>
+        </div>
       </div>
     </section>
   );

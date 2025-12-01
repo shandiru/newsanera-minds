@@ -62,7 +62,7 @@ export default function BookNowPage() {
   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f5f7f5] to-[#e9ece7] px-4 py-20">
+    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f5f7f5] to-[#e9ece7] px-4 py-20 font-body">
       <div className="w-full max-w-[720px] bg-white/90 backdrop-blur-xl rounded-3xl shadow-lg border border-[#e2e7e1] p-10">
 
         {/* CONTACT INFO */}
