@@ -113,13 +113,24 @@ export default function Navbar() {
               </div>
             ))}
 
-            <div className="py-4">
+            
+            <div className="py-4 border-b border-gray-300">
               <a
                 href="/contact"
                 className="inline-block bg-[#062016] text-white rounded-full px-8 py-3 text-[12px] 
                            tracking-[0.18em] font-semibold hover:bg-[#11604B] transition"
               >
                 LET’S TALK
+              </a>
+            </div>
+
+            <div className="py-4 border-b border-gray-300">
+              <a
+                href="/availablecourses"
+                className="inline-block bg-[#062016] text-white rounded-full px-8 py-3 text-[12px] 
+                           tracking-[0.18em] font-semibold hover:bg-[#11604B] transition  uppercase"
+              >
+                 Available Courses
               </a>
             </div>
 
