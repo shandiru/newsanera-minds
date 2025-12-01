@@ -51,7 +51,7 @@ function WorkshopBanner() {
           data-aos-delay="150"
           className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
         >
-          Available Workshops
+           Available Courses
         </a>
       </div>
     </div>
