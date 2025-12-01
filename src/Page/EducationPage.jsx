@@ -16,7 +16,7 @@ function useAOS() {
    1) Banner (AOS)
    ========================= */
 function EducationBanner() {
-  useAOS()
+  useAOS();
 
   return (
     <div
@@ -30,16 +30,27 @@ function EducationBanner() {
       />
       <div className="absolute inset-0 bg-[rgba(6,32,22,0.72)]" />
 
-      <div className="absolute inset-0 flex items-center justify-center text-center px-6">
+      {/* Centered content */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 gap-6">
         <h1
           className="font-display text-white text-4xl md:text-5xl font-bold uppercase tracking-wide"
           data-aos="fade-up"
         >
           <span className="small-caps">Education</span>
         </h1>
+
+        {/* Added Button */}
+        <a
+          href="/availablecourses?cat=education"
+          data-aos="fade-up"
+          data-aos-delay="150"
+          className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
+        >
+          Available Courses
+        </a>
       </div>
     </div>
-  )
+  );
 }
 
 /* =========================
