@@ -62,7 +62,7 @@ export default function Hero() {
 
           <a
             href="/contact"
-            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white border border-white bg-transparent backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-black"
+            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white border border-white bg-transparent backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-black "
           >
             Bespoke Courses
           </a>

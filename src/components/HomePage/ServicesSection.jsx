@@ -27,7 +27,7 @@ export default function ServicesSection() {
 
       {/* Intro Text */}
       <div className="max-w-3xl mx-auto text-center px-6 py-14">
-        <p className="text-lg md:text-xl text-[#062016]/85 leading-relaxed font-light">
+        <p className="text-lg md:text-xl text-[#062016]/85 leading-relaxed font-lightfont-body font-body">
           Explore our range of{" "}
           <span className="font-medium text-[#11604b]">
             therapist-led programs
