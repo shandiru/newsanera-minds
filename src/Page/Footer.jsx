@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="mt-10 text-center text-[13px] md:text-sm text-[#062016]/75">
+      <div className="mt-10 text-center text-[13px] md:text-sm text-[#062016]/75 font-body">
         © {new Date().getFullYear()} Sanera Minds. All rights reserved.
       </div>
     </footer>
