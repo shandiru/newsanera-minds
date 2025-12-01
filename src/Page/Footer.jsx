@@ -12,7 +12,7 @@ export default function Footer() {
           <h2 className="font-display text-2xl md:text-3xl tracking-wide text-[#062016]">
             SANERA MINDS
           </h2>
-          <p className="mt-4 text-[14px] md:text-[15px] leading-relaxed text-[#062016]/85">
+          <p className="mt-4 text-[14px] md:text-[15px] leading-relaxed text-[#062016]/85 font-body">
             Empowering a new era of mental wellness with therapist-led learning
             and meaningful wellbeing experiences for organisations, educational 
             settings, and events.
@@ -20,11 +20,11 @@ export default function Footer() {
         </div>
 
         {/* QUICK LINKS */}
-        <div>
-          <h3 className="font-display text-xl md:text-2xl text-[#11604b] mb-4">
+        <div className="font-body">
+          <h3 className="font-display text-xl md:text-2xl text-[#11604b] mb-4 ">
             Quick Links
           </h3>
-          <ul className="space-y-2 text-[15px] md:text-[16px]">
+          <ul className="space-y-2 text-[15px] md:text-[16px] " >
             <li>
               <a href="/" className="hover:text-[#11604b] transition">Home</a>
             </li>
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         {/* OUR WORK */}
-        <div>
+        <div className="font-body">
           <h3 className="font-display text-xl md:text-2xl text-[#11604b] mb-4">
             Our Work
           </h3>
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         {/* CONTACT */}
-        <div>
+        <div className="font-body">
           <h3 className="font-display text-xl md:text-2xl text-[#11604b] mb-4">
             Contact
           </h3>
