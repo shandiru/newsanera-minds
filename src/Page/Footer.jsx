@@ -74,7 +74,7 @@ export default function Footer() {
             {/* EMAIL */}
             <li>
               <a
-                href="mailto:saneraminds@gmail.com"
+                href="mailto:contact@saneraminds.com"
                 className="hover:text-[#11604b] transition"
               >
                 E-mail

@@ -68,7 +68,7 @@ export default function BookNowPage() {
         {/* CONTACT INFO */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
           <a
-            href="mailto:saneraminds@gmail.com"
+            href="mailto:contact@saneraminds.com"
             className="flex items-center gap-2 px-5 py-3 border border-[#cfd5cf] rounded-full bg-white text-[#0d2f25] shadow-sm hover:bg-[#f5f7f5] transition"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
