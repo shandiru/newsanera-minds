@@ -24,7 +24,7 @@ export default function Footer() {
           <h3 className="font-display text-xl md:text-2xl text-[#11604b] mb-4 ">
             Quick Links
           </h3>
-          <ul className="space-y-2 text-[15px] md:text-[16px] " >
+          <ul className="space-y-2 text-[15px] md:text-[16px] ">
             <li>
               <a href="/" className="hover:text-[#11604b] transition">Home</a>
             </li>
@@ -36,6 +36,12 @@ export default function Footer() {
             </li>
             <li>
               <a href="/contact" className="hover:text-[#11604b] transition">Contact</a>
+            </li>
+            <li>
+              <a href="/terms" className="hover:text-[#11604b] transition">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="/privacy" className="hover:text-[#11604b] transition">Privacy Policy</a>
             </li>
           </ul>
         </div>
@@ -71,23 +77,14 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-[15px] md:text-[16px]">
 
-            {/* EMAIL */}
             <li>
-              <a
-                href="mailto:contact@saneraminds.com"
-                className="hover:text-[#11604b] transition"
-              >
+              <a href="mailto:contact@saneraminds.com" className="hover:text-[#11604b] transition">
                 E-mail
               </a>
             </li>
 
-            {/* WHATSAPP */}
             <li>
-              <a
-                href="https://wa.me/447414786958"
-                target="_blank"
-                className="hover:text-[#11604b] transition"
-              >
+              <a href="https://wa.me/447414786958" target="_blank" className="hover:text-[#11604b] transition">
                 WhatsApp
               </a>
             </li>
@@ -103,20 +100,8 @@ export default function Footer() {
 
       {/* LOGO + ACCREDITATION ROW */}
       <div className="max-w-7xl mx-auto mt-12 flex flex-col md:flex-row items-center justify-center gap-10">
-
-        {/* Main Logo */}
-        <img
-          src="/logo png.png"
-          alt="Sanera Minds Logo"
-          className="h-16 md:h-20 object-contain"
-        />
-
-        {/* BABCP Accreditation */}
-        <img
-          src="/babcp.png"
-          alt="BABCP Accredited"
-          className="h-24 md:h-28 object-contain"
-        />
+        <img src="/logo png.png" alt="Sanera Minds Logo" className="h-16 md:h-20 object-contain" />
+        <img src="/babcp.png" alt="BABCP Accredited" className="h-24 md:h-28 object-contain" />
       </div>
 
       {/* COPYRIGHT */}

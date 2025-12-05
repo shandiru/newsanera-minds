@@ -9,9 +9,14 @@ import OrganisationPage from "./Page/OrganisationPage"
 import BookNowPage from "./Page/BookNowPage"
 import Footer from "./Page/Footer"
 import Availablecourses from "./Page/Availablecourses"
+import TermsConditions from "./components/Term";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import GDPRConsent from "./components/GDPRButton";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -21,11 +26,16 @@ function App() {
         <Route path="/services/organisation" element={<OrganisationPage />} />
         <Route path="/availablecourses" element={<Availablecourses />} />
         <Route path="/contact" element={<BookNowPage />} />
+         <Route path="/terms" element={<TermsConditions />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
+        <GDPRConsent />
     </Router>
   );
 }
 
 
 export default App;
+
+
