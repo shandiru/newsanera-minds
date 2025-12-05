@@ -178,7 +178,7 @@ export default function BookNowPage() {
           >
             Send via Email
           </button>
-
+          <p class="text-xs text-center text-black" >By submitting this form, you agree to us processing your details to respond to your enquiry. Your information is handled securely and in line with our Privacy Policy.</p>
           {status && (
             <p className="text-sm text-[#0d2f25] font-medium text-center pt-2">
               {status}
