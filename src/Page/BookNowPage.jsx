@@ -91,7 +91,7 @@ export default function BookNowPage() {
           Get In Touch
         </h1>
 
-        <p className="text-center text-[17px] text-[#062016]/80 mb-10 max-w-lg mx-auto">
+        <p className="text-center text-[17px] text-[var(--brand-deep)]/80 mb-10 max-w-lg mx-auto">
           Book a complimentary initial assessment with one of our therapists.
         </p>
 

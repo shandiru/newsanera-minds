@@ -8,7 +8,7 @@ return (
       <div className="max-w-3xl mx-auto">
 
         <p
-          className="font-body text-[#062016]/90 text-lg md:text-xl leading-relaxed mb-6"
+          className="font-body text-[var(--brand-deep)]/90 text-lg md:text-xl leading-relaxed mb-6"
           data-aos="fade-up"
         >
           Whether it’s a team offsite, a wellness event, or a gathering with friends  our sessions

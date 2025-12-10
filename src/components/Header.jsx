@@ -14,11 +14,11 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 mt-4">
-      <div className="w-[93%] mx-auto bg-[#EFF0EA] rounded-lg shadow-sm">
+      <div className="w-[93%] mx-auto bg-[var(--brand-bg)] rounded-lg shadow-sm">
 
         <div
           className={`relative max-w-[1350px] mx-auto flex items-center justify-between px-8 py-5 transition-all duration-300 ${
-            scrolled ? "text-[#062016]" : "text-[#062016]"
+            scrolled ? "text-[var(--brand-deep)]" : "text-[var(--brand-deep)]"
           }`}
         >
 
@@ -51,7 +51,7 @@ export default function Navbar() {
                   font-bold
                   bg-clip-text 
                   bg-linear-to-b 
-                  from-[#02130E] via-[#062016] to-[#11604B]
+                  from-[#02130E] via-[var(--brand-deep)] to-[var(--brand-teal)]
                   px-3 py-2 
                   rounded-md
                   transition-all duration-300
@@ -66,14 +66,14 @@ export default function Navbar() {
           <a
             href="/contact"
             className="hidden xl:inline-block rounded-full px-8 py-[10px] text-[12px] tracking-[0.18em] font-semibold 
-                       bg-[#062016] text-white hover:bg-[#11604B] transition"
+                       bg-[var(--brand-deep)] text-white hover:bg-[var(--brand-teal)] transition"
           >
             LET’S TALK
           </a>
 
           {/* HAMBURGER MENU (visible from lg → mobile) */}
           <button
-            className="xl:hidden text-2xl text-[#062016]"
+            className="xl:hidden text-2xl text-[var(--brand-deep)]"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FiX /> : <FiMenu />}
@@ -83,7 +83,7 @@ export default function Navbar() {
 
         {/* MOBILE / TABLET / LG MENU */}
         {isOpen && (
-          <div className="xl:hidden bg-[#EFF0EA] text-[#062016] text-center shadow-md">
+          <div className="xl:hidden bg-[var(--brand-bg)] text-[var(--brand-deep)] text-center shadow-md">
 
             {[
               { label: "ORGANISATIONS", href: "/services/organisation" },
@@ -94,7 +94,7 @@ export default function Navbar() {
               <div
                 key={item.label}
                 className="border-b border-gray-300 py-5 text-[13px] tracking-[0.18em] uppercase 
-                           font-medium hover:bg-[#11604B] hover:text-white transition"
+                           font-medium hover:bg-[var(--brand-teal)] hover:text-white transition"
               >
                 <a
                   href={item.href}
@@ -104,7 +104,7 @@ export default function Navbar() {
                     uppercase tracking-[0.25em]
                     font-display font-bold
                     bg-clip-text
-                    bg-linear-to-b from-[#02130E] via-[#062016] to-[#11604B]
+                    bg-linear-to-b from-[#02130E] via-[var(--brand-deep)] to-[var(--brand-teal)]
                     py-2
                   "
                 >
@@ -117,8 +117,8 @@ export default function Navbar() {
             <div className="py-4 border-b border-gray-300">
               <a
                 href="/contact"
-                className="inline-block bg-[#062016] text-white rounded-full px-8 py-3 text-[12px] 
-                           tracking-[0.18em] font-semibold hover:bg-[#11604B] transition"
+                className="inline-block bg-[var(--brand-deep)] text-white rounded-full px-8 py-3 text-[12px] 
+                           tracking-[0.18em] font-semibold hover:bg-[var(--brand-teal)] transition"
               >
                 LET’S TALK
               </a>
@@ -127,8 +127,8 @@ export default function Navbar() {
             <div className="py-4 border-b border-gray-300">
               <a
                 href="/availablecourses"
-                className="inline-block bg-[#062016] text-white rounded-full px-8 py-3 text-[12px] 
-                           tracking-[0.18em] font-semibold hover:bg-[#11604B] transition  uppercase"
+                className="inline-block bg-[var(--brand-deep)] text-white rounded-full px-8 py-3 text-[12px] 
+                           tracking-[0.18em] font-semibold hover:bg-[var(--brand-teal)] transition  uppercase"
               >
                  Available Courses
               </a>

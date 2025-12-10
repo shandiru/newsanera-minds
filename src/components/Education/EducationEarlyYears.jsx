@@ -5,25 +5,25 @@ export default function EducationEarlyYears() {
   useAOS()
 
   return (
-    <section className="bg-[#eff0ea] py-16 md:py-20 px-6">
+    <section className="bg-[var(--brand-bg)] py-16 md:py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         <div className="space-y-5" data-aos="fade-right">
-          <h2 className="font-display text-2xl md:text-3xl text-[#11604b]">
+          <h2 className="font-display text-2xl md:text-3xl text-[var(--brand-teal)]">
             Supporting Emotional Regulation in Early Years
           </h2>
 
-          <p className="font-body text-[#062016]/90 text-[17px] md:text-lg">
+          <p className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg">
             We offer workshops for nurseries and early years settings, helping young children
             recognise, understand, and manage their emotions from an early age.
           </p>
 
-          <p className="font-body text-[#062016]/90 text-[17px] md:text-lg">
+          <p className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg">
             Using playful activities like storytelling, movement, and creative exercises, children
             build foundational emotional awareness, social connection, and resilience.
           </p>
 
-          <p className="font-body text-[#062016]/90 text-[17px] md:text-lg">
+          <p className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg">
             These skills help children settle calmly, communicate confidently, and participate fully
             in learning environments.
           </p>

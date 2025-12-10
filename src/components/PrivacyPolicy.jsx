@@ -2,9 +2,9 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
     return (
-        <div className="mx-auto px-4 py-12 sm:px-6 lg:px-16 bg-[#f4f5ef] text-[#062016] font-body">
+        <div className="mx-auto px-4 py-12 sm:px-6 lg:px-16 bg-[#f4f5ef] text-[var(--brand-deep)] font-body">
             <h1 className="text-4xl font-semibold text-center mb-8 mt-15">Privacy Policy</h1>
-            <p className="text-center text-[#062016]/80">Last updated: 09/09/25</p>
+            <p className="text-center text-[var(--brand-deep)]/80">Last updated: 09/09/25</p>
 
             <div className="mt-8 space-y-6">
                 <section>
@@ -95,12 +95,12 @@ const PrivacyPolicy = () => {
                     <p>If you have any questions about this Privacy Policy or how we handle your personal data, please contact us:</p>
                     <div>
                         <p><strong>Saneraminds</strong></p>
-                        <p>Email: <a href="mailto:contact@saneraminds.com" className="text-[#11604b] hover:underline">contact@saneraminds.com</a></p>
+                        <p>Email: <a href="mailto:contact@saneraminds.com" className="text-[var(--brand-teal)] hover:underline">contact@saneraminds.com</a></p>
                         <p>Phone: +44 7414 786958</p>
                     </div>
                     <p className="mt-2">
                         If you are not satisfied with our response, you have the right to lodge a complaint with the{' '}
-                        <a href="https://ico.org.uk/" target="_blank" rel="noopener noreferrer" className="text-[#11604b] hover:underline">
+                        <a href="https://ico.org.uk/" target="_blank" rel="noopener noreferrer" className="text-[var(--brand-teal)] hover:underline">
                             Information Commissioner’s Office (ICO)
                         </a>.
                     </p>

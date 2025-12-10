@@ -9,16 +9,16 @@ export default function EducationExpect() {
       <div className="max-w-5xl mx-auto">
 
         <h2
-          className="font-display text-2xl md:text-3xl text-[#11604b] mb-6 text-center"
+          className="font-display text-2xl md:text-3xl text-[var(--brand-teal)] mb-6 text-center"
           data-aos="fade-up"
         >
           What to Expect
         </h2>
 
-        <ul className="font-body text-[#062016]/90 text-[17px] md:text-lg space-y-5">
+        <ul className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg space-y-5">
 
           <li data-aos="fade-up">
-            <span className="font-semibold text-[#11604b]">
+            <span className="font-semibold text-[var(--brand-teal)]">
               Thoughtful, down-to-earth workshops.
             </span>{" "}
             Designed for nurseries, schools, colleges, and universities  grounded, warm, and tailored
@@ -26,7 +26,7 @@ export default function EducationExpect() {
           </li>
 
           <li data-aos="fade-up">
-            <span className="font-semibold text-[#11604b]">
+            <span className="font-semibold text-[var(--brand-teal)]">
               Led by accredited psychotherapists.
             </span>{" "}
             We translate evidence-based practice into real-world, practical tools that staff and
@@ -34,7 +34,7 @@ export default function EducationExpect() {
           </li>
 
           <li data-aos="fade-up">
-            <span className="font-semibold text-[#11604b]">
+            <span className="font-semibold text-[var(--brand-teal)]">
               Flexible, assessment-based approach.
             </span>{" "}
             Every session is shaped around your environment  from staff training and student mental
@@ -42,14 +42,14 @@ export default function EducationExpect() {
           </li>
 
           <li data-aos="fade-up">
-            <span className="font-semibold text-[#11604b]">
+            <span className="font-semibold text-[var(--brand-teal)]">
               Supportive workshops, assemblies & presentations.
             </span>{" "}
             Covering emotional regulation, self-esteem building, transitions, stress, and academic pressure.
           </li>
 
           <li data-aos="fade-up">
-            <span className="font-semibold text-[#11604b]">
+            <span className="font-semibold text-[var(--brand-teal)]">
               A vision for wellbeing woven into education.
             </span>{" "}
              When wellbeing is part of the learning environment, every child and adult feels

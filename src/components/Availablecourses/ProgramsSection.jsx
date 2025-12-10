@@ -246,7 +246,7 @@ export default function ProgramsSection({ selectedCategory }) {
   );
 
   return (
-    <section className="px-4 py-16 bg-[#EFF0EA] font-sans">
+    <section className="px-4 py-16 bg-[var(--brand-bg)] font-sans">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <AnimatePresence>

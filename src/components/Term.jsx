@@ -3,10 +3,10 @@ import React from "react";
 
 const TermsConditions = () => {
   return (
-    <section className="bg-[#f4f5ef] text-[#062016] mx-auto px-4 py-12 sm:px-6 lg:px-16 font-body">
+    <section className="bg-[#f4f5ef] text-[var(--brand-deep)] mx-auto px-4 py-12 sm:px-6 lg:px-16 font-body">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-semibold text-center mb-6 mt-15">Website Terms of Use</h1>
-        <p className="text-center text-[#062016]/80">Last updated: 09/09/25</p>
+        <p className="text-center text-[var(--brand-deep)]/80">Last updated: 09/09/25</p>
 
         <div className="mt-8 space-y-6">
           <section>
@@ -76,7 +76,7 @@ const TermsConditions = () => {
             <p>If you have any questions about these Terms of Use, please contact us:</p>
             <div>
               <p><strong>Saneraminds</strong></p>
-              <p>Email: <a href="mailto:contact@saneraminds.com" className="text-[#11604b] hover:underline">contact@saneraminds.com</a></p>
+              <p>Email: <a href="mailto:contact@saneraminds.com" className="text-[var(--brand-teal)] hover:underline">contact@saneraminds.com</a></p>
               <p>Phone: +44 7414 786958</p>
             </div>
           </section>

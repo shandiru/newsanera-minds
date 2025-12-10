@@ -9,14 +9,14 @@ export default function EventFormats() {
       <div className="max-w-4xl mx-auto text-center">
 
         <h2
-          className="font-display text-2xl md:text-3xl text-[#11604b] mb-4"
+          className="font-display text-2xl md:text-3xl text-[var(--brand-teal)] mb-4"
           data-aos="fade-up"
         >
           Flexible Formats
         </h2>
 
        <p
-  className="font-body text-[#062016]/90 text-lg md:text-xl leading-relaxed"
+  className="font-body text-[var(--brand-deep)]/90 text-lg md:text-xl leading-relaxed"
   data-aos="fade-up"
 >
   We offer flexible formats, from online workshops to in-person sessions,
@@ -25,7 +25,7 @@ export default function EventFormats() {
 </p>
 
 <p
-  className="font-body text-[#062016]/90 text-lg md:text-xl leading-relaxed"
+  className="font-body text-[var(--brand-deep)]/90 text-lg md:text-xl leading-relaxed"
   data-aos="fade-up"
   data-aos-delay="200"
 >

@@ -5,9 +5,9 @@ export default function AboutIntro() {
   useAOS()
 
   return (
-    <section className="bg-[#eff0ea] py-12 md:py-16 px-6 text-center">
+    <section className="bg-[var(--brand-bg)] py-12 md:py-16 px-6 text-center">
       <p
-        className="font-body max-w-3xl mx-auto text-[#062016]/90 text-lg md:text-xl"
+        className="font-body max-w-3xl mx-auto text-[var(--brand-deep)]/90 text-lg md:text-xl"
         data-aos="fade-up"
       >
         We’re a team of accredited psychotherapists who found ourselves clicking

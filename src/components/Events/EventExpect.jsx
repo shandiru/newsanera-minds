@@ -15,11 +15,11 @@ export default function EventExpect() {
   ]
 
   return (
-    <section className="bg-[#eff0ea] py-16 px-6">
+    <section className="bg-[var(--brand-bg)] py-16 px-6">
       <div className="max-w-5xl mx-auto">
 
         <h2
-          className="font-display text-2xl md:text-3xl text-[#11604b] mb-6"
+          className="font-display text-2xl md:text-3xl text-[var(--brand-teal)] mb-6"
           data-aos="fade-up"
         >
           What to Expect
@@ -29,12 +29,12 @@ export default function EventExpect() {
           {items.map((item, i) => (
             <li key={i} className="group" data-aos="fade-up">
               <div className="flex items-start gap-3">
-                <span className="mt-1.5 inline-block h-2.5 w-2.5 rounded-full bg-[#11604b]" />
-                <p className="font-body text-[#062016]/90 text-[17px] md:text-lg leading-relaxed">
+                <span className="mt-1.5 inline-block h-2.5 w-2.5 rounded-full bg-[var(--brand-teal)]" />
+                <p className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg leading-relaxed">
                   {item}
                 </p>
               </div>
-              <div className="ml-[18px] mt-3 h-px bg-[#11604b]/15 group-last:hidden" />
+              <div className="ml-[18px] mt-3 h-px bg-[var(--brand-teal)]/15 group-last:hidden" />
             </li>
           ))}
         </ul>

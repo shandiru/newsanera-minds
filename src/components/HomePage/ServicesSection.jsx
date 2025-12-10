@@ -9,7 +9,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section className="bg-[#eff0ea] text-[#062016] font-[Inter]">
+    <section className="bg-[var(--brand-bg)] text-[var(--brand-deep)] font-[Inter]">
 
       {/* Top Banner */}
       {/* <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden">
@@ -27,9 +27,9 @@ export default function ServicesSection() {
 
       {/* Intro Text */}
       <div className="max-w-3xl mx-auto text-center px-6 py-14">
-        <p className="text-lg md:text-xl text-[#062016]/85 leading-relaxed font-lightfont-body font-body">
+        <p className="text-lg md:text-xl text-[var(--brand-deep)]/85 leading-relaxed font-lightfont-body font-body">
           Explore our range of{" "}
-          <span className="font-medium text-[#11604b]">
+          <span className="font-medium text-[var(--brand-teal)]">
             therapist-led programs
           </span>{" "}
           designed to enhance mental wellbeing from workplaces to classrooms and beyond.

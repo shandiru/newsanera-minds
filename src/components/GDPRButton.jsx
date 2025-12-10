@@ -42,7 +42,7 @@ export default function GDPRConsent() {
       {visible && (
         <div
           className="fixed bottom-4 left-4 right-4 md:bottom-6 text-center md:right-6 md:left-auto max-w-full md:max-w-xs p-4 rounded-lg 
-                     shadow-lg z-50 bg-[#eff0ea] text-[#062016] dark:bg-[#11604b] dark:text-white transition-all"
+                     shadow-lg z-50 bg-[var(--brand-bg)] text-[var(--brand-deep)] dark:bg-[var(--brand-teal)] dark:text-white transition-all"
         >
           <p className="text-sm mb-2">
             We use cookies to improve your experience.
@@ -50,7 +50,7 @@ export default function GDPRConsent() {
           <p className="mb-3">
             <a
               href="/privacy"
-              className="underline text-[#11604b] hover:text-[#0d3d32] dark:text-[#eff0ea] dark:hover:text-[#d4f0e0]"
+              className="underline text-[var(--brand-teal)] hover:text-[#0d3d32] dark:text-[var(--brand-bg)] dark:hover:text-[#d4f0e0]"
             >
               See our Privacy Policy
             </a>
@@ -58,13 +58,13 @@ export default function GDPRConsent() {
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <button
               onClick={handleReject}
-              className="bg-[#11604b] text-white px-4 py-2 rounded text-sm hover:bg-[#0d3d32] transition"
+              className="bg-[var(--brand-teal)] text-white px-4 py-2 rounded text-sm hover:bg-[#0d3d32] transition"
             >
               Reject
             </button>
             <button
               onClick={handleAccept}
-              className="bg-white text-[#062016] px-4 py-2 rounded text-sm hover:bg-[#e0e2d8] transition"
+              className="bg-white text-[var(--brand-deep)] px-4 py-2 rounded text-sm hover:bg-[#e0e2d8] transition"
             >
               Accept
             </button>
@@ -77,7 +77,7 @@ export default function GDPRConsent() {
         <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40">
           <button
             onClick={handleIconClick}
-            className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#11604b] shadow-lg border border-white 
+            className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[var(--brand-teal)] shadow-lg border border-white 
                        flex items-center justify-center hover:scale-105 transition cursor-pointer"
             title="Cookie Preferences"
           >

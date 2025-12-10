@@ -6,18 +6,18 @@ export default function OrgWhyItMatters() {
   useAOS()
 
  return (
-     <section className="bg-[#eff0ea] py-16 px-6 text-center">
+     <section className="bg-[var(--brand-bg)] py-16 px-6 text-center">
        <div className="max-w-3xl mx-auto space-y-5">
  
          <h2
-           className="font-display text-2xl md:text-3xl text-[#11604b]"
+           className="font-display text-2xl md:text-3xl text-[var(--brand-teal)]"
            data-aos="fade-up"
          >
            Why It Matters
          </h2>
  
          <p
-           className="org-why font-body text-[#062016]/90 text-lg md:text-xl leading-relaxed"
+           className="org-why font-body text-[var(--brand-deep)]/90 text-lg md:text-xl leading-relaxed"
            data-aos="fade-up"
          >
            Mental health isn’t separate from performance — it drives it.
@@ -34,12 +34,12 @@ export default function OrgWhyItMatters() {
                whileHover={{
                  y: -8,
                  scale: 1.03,
-                 borderColor: "#11604b",
+                 borderColor: "var(--brand-teal)",
                }}
                whileTap={{
                  y: -8,
                  scale: 1.03,
-                 borderColor: "#11604b",
+                 borderColor: "var(--brand-teal)",
                }}
                transition={{
                  duration: 0.22,
@@ -57,7 +57,7 @@ export default function OrgWhyItMatters() {
          </div>
  
          <p
-           className="org-why font-body text-[#062016]/90 text-lg md:text-xl"
+           className="org-why font-body text-[var(--brand-deep)]/90 text-lg md:text-xl"
            data-aos="fade-up"
          >
            Supporting mental health isn’t just kindness — it’s smart business.

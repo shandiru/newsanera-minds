@@ -10,7 +10,7 @@ export default function EducationWhyItMatters() {
 
         {/* Heading */}
         <h2
-          className="font-display text-2xl md:text-3xl text-[#11604b]"
+          className="font-display text-2xl md:text-3xl text-[var(--brand-teal)]"
           data-aos="fade-up"
         >
           Why It Matters

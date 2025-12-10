@@ -9,10 +9,10 @@ export default function AboutContentWithImage() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         <div className="space-y-5" data-aos="fade-right">
-          <h2 className="font-display text-2xl md:text-3xl text-[#11604b]">
+          <h2 className="font-display text-2xl md:text-3xl text-[var(--brand-teal)]">
             Our Story
           </h2>
-          <p className="font-body text-[#062016]/90 text-[17px] md:text-lg leading-relaxed">
+          <p className="font-body text-[var(--brand-deep)]/90 text-[17px] md:text-lg leading-relaxed">
             We built Sanera Minds to bring learning back to life: people-centred, warm, practical, and genuinely uplifting. Our work is rooted in the belief that people learn best when they feel supported, understood, and inspired. We’re here to create experiences that make that possible..
           </p>
         </div>

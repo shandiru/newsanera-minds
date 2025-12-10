@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60 transition-all duration-1000"></div>
 
       <div className="relative z-10 px-6 max-w-4xl mx-auto">
-        <div className="w-20 h-[2px] bg-[#11604B] mx-auto mb-6 opacity-90"></div>
+        <div className="w-20 h-[2px] bg-[var(--brand-teal)] mx-auto mb-6 opacity-90"></div>
 
         {/* Animated heading */}
         <h1 className="relative text-4xl md:text-6xl uppercase tracking-[0.1em] font-display font-bold text-white px-3 py-1 leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
           <a
             href="/availablecourses"
-            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[#11604B] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
+            className="px-10 py-4 rounded-full text-sm font-semibold uppercase tracking-[0.25em] text-white bg-[var(--brand-teal)] shadow-lg shadow-black/50 transition-all duration-300 hover:bg-[#0d4a36] hover:shadow-xl hover:shadow-black/60"
           >
             Available Courses
           </a>

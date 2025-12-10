@@ -156,7 +156,7 @@ const HeroCurasol = () => {
                   font-bold
                   bg-clip-text 
                   bg-linear-to-b 
-                  from-[#02130E] via-[#062016] to-[#11604B]
+                  from-[#02130E] via-[var(--brand-deep)] to-[var(--brand-teal)]
                   px-3 py-2 
                   rounded-md
                   transition-all duration-300">
