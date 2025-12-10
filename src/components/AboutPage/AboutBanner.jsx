@@ -1,16 +1,29 @@
- export default function AboutBanner(){
+"use client"
+import useAOS from "../useAOS"
+
+export default function AboutBanner() {
+  useAOS()
+
   return (
-    <div className="relative h-[300px] md:h-[420px] w-full">
+    <div
+      className="relative h-[300px] md:h-[400px] w-full overflow-hidden"
+      data-aos="zoom-in"
+    >
       <img
-        src="/images/about-banner.jpg" /* your sample/banner image */
+        src="/s1.jpeg"
         alt="About Sanera Minds"
         className="w-full h-full object-cover"
       />
-      {/* Classic dark overlay with a hint of teal on the right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[rgba(6,32,22,0.82)] via-[rgba(6,32,22,0.78)] to-[rgba(17,96,75,0.72)]" />
-      <div className="absolute inset-0 flex items-center justify-center text-center px-6">
-        <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl tracking-wide">
-          <span className="small-caps">About</span> <span className="italic">Sanera Minds</span>
+
+      <div className="absolute inset-0 bg-[rgba(6,32,22,0.72)]"></div>
+
+      <div className="absolute inset-0 flex items-center justify-center text-center px-6 pt-30">
+        <h1
+          className="font-display text-white text-3xl md:text-5xl font-bold uppercase tracking-wide"
+          data-aos="fade-up"
+        >
+          <span className="small-caps">About</span>{" "}
+          <span className="">Sanera Minds</span>
         </h1>
       </div>
     </div>
